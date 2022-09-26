@@ -1,4 +1,4 @@
-def bubbleSrot(list) :
+def bubbleSort(list) :
 
     length = len(list)
 
@@ -14,7 +14,7 @@ def bubbleSrot(list) :
                 list[j], list[j+1] = list[j+1], list[j]
 
 list = [5,1,4,2,8]
-bubbleSrot(list)
+bubbleSort(list)
 print(list)
 
 # 큰 숫자가 매 사이클 마다 맨 오른쪽으로 가는 정렬(오름차순)
