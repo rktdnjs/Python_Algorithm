@@ -4,15 +4,15 @@
 # 첫째 줄에 그룹 단어의 개수를 출력한다.
 
 N = int(input()) # 입력받을 단어의 개수를 입력받는다.
-cnt = 0
+cnt = N
 
-for i in range(N):
-    word = input()
-    for j in range(0, len(word)-1):
-        if word[j] == word[j+1]:
-            cnt += 1
-            break
-        elif word[j] in word[j+1:]:
+for i in range(N): # 입력받은 단어 수 만큼 반복
+    word = input() # 단어를 입력받음!
+    for j in range(0, len(word)-1): # 해당 단어의 0번째 ~ 끝까지 반복
+        if word[j] == word[j+1]: # j번째랑 그 다음이 같으면 그냥 패스
             pass
+        elif word[j] in word[j+1:]: # 만약 j번째랑 그 다음이 다른데 그 이후에 해당 알파벳이 있을 경우, 이는 그룹 문자가 아님
+            cnt -= 1 # 그렇기 때문에 카운트를 1 감소시킴
+            break
 
 print(cnt)
