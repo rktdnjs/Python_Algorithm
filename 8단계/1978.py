@@ -1,7 +1,7 @@
 # 1978 : 소수 찾기
 # https://www.acmicpc.net/problem/1978
 
-N = int(input()) # 입력은 받는데 
+N = int(input()) # 입력은 받는데 딱히 안씀
 count = 0
 
 num_list = list(map(int, input().split())) # 숫자들을 전부 입력 받아서 리스트 형태로 저장
