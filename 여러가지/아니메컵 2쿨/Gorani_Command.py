@@ -1,6 +1,7 @@
 # 23.02.11 아니메컵 2쿨
 # A번 - Gorani Command
 # https://www.acmicpc.net/contest/problem/939/1
+# https://www.acmicpc.net/problem/27445
 # 고라니의 위치를 구하기 위해서 입력 받은 값의 인덱스를 구해서 값을 출력하는 방식을 이용.
 import sys
 
