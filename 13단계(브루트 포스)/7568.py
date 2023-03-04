@@ -25,6 +25,6 @@ for i in range(N): # ..하는 과정을 총 5번 진행
             cnt += 1 # 카운트를 1 추가
 
     count.append(cnt)
-
+ 
 for i in count:
     print(i + 1, end=' ')
