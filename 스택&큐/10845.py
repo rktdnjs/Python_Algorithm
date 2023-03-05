@@ -1,4 +1,4 @@
-# 10845 : 큐
+# 10845 : 큐(Queue)
 # https://www.acmicpc.net/problem/10845
 
 import sys

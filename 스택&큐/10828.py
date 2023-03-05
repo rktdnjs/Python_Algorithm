@@ -1,4 +1,4 @@
-# 10828 : 스택
+# 10828 : 스택(Stack)
 # https://www.acmicpc.net/problem/10828
 
 import sys
