@@ -1,13 +1,14 @@
 # 23.02.11 아니메컵 2쿨
 # B번 - 랩실에서 잘 자요(?)
-# https://www.acmicpc.net/contest/problem/939/2
-# 풀다가 일단 냅둠
+# https://www.acmicpc.net/problem/27446
 
 import sys
 
+ink = 0
+
 N, M = map(int , sys.stdin.readline().split())
 
-numList = list(range(1, N+1))
+numList = list(range(1, N+1)) # 없어진 논문을 찾기 위해서 일단 전체 페이지를 가진 리스트 생성
 
 ownpage = list(map(int, sys.stdin.readline().split())) # 바닥에 흩어진 논문
 ownpage = list(set(ownpage)) # 중복 제거 후 numList에서 보유한 페이지를 제거한다.
