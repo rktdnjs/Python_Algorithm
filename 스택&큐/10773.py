@@ -17,4 +17,4 @@ for i in range(N):
     else:
         List.append(number)
 
-print(sum(List))
+print(sum(List)) 
