@@ -2,7 +2,6 @@
 # 매 번 가장 작은 것을 선택해서 가장 앞으로 보내는 정렬
 # 시간 복잡도 O(N^2)
 
-import sys
 import time # 시간 측정용
 
 start_time = time.time() # 측정 시작
