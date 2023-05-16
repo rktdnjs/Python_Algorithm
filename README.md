@@ -6,6 +6,17 @@
 
 https://covenant.tistory.com/234
 
+# 자신이 짠 알고리즘 시간 측정 코드
+
+```
+import time # 시간 측정용
+
+start_time = time.time() # 시간 측정 시작
+
+end_time = time.time() # 측정 종료
+print("걸린 시간 : ", end_time - start_time) # 수행 시간 출력
+```
+
 # 공부해야할 주제
 ⭐⭐⭐ 구현
 
