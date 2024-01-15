@@ -1,9 +1,10 @@
-# 24444 : 알고리즘 수업 - 너비 우선 탐색 1
-# https://www.acmicpc.net/problem/24444
+# 24445 : 알고리즘 수업 - 너비 우선 탐색 2
+# https://www.acmicpc.net/problem/24445
 # N개의 정점과 M개의 간선
 # 정점 R에서 시작하여 DFS로 탐색한 노드의 방문 순서 출력
 # 모든 간선의 가중치는 1
 # i번째 줄에는 정점 i의 방문 순서를 출력함
+# 내림차순 방문
 
 import sys
 from collections import deque
@@ -43,7 +44,7 @@ for i in range(M):
     graph[B].append(A)
 
 for sublist in graph:
-    sublist.sort()
+    sublist.sort(reverse=True)
 
 # 방문하지 못한 노드 개수 0 출력용도
 count = 1
