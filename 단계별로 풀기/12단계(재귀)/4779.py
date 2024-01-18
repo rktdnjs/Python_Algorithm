@@ -1,7 +1,7 @@
 # 4779 : 칸토어 집합
 # https://acmicpc.net/problem/4779
 # 파일의 끝에서 입력을 멈춘다 => except EOFError 처리
-# 'str' object does not support item assignment : 리스트로 처리해주어야 함
+# 'str' object does not support item assignment : 리스트로 처리해주어야 함(할당은 불가능)
 # sys.stdin.readline()은 EOFError를 raise하지 않습니다. input()만 그런 것(!!)
 
 import sys
