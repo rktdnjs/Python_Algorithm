@@ -7,6 +7,12 @@ N, M = map(int, input().split())
 # 최단 경로 테이블 초기화
 graph = [[INF] * (N + 1) for _ in range(N + 1)]
 
+# 자기 자신 to 자기 자신 비용 0으로 초기화
+for a in range(1, N + 1):
+    for b in range(1, N + 1):
+        if a == b:
+            graph[a][b] = 0
+
 for _ in range(M):
     # A회사에서 B로 갈 수 있음을 나타냄
     # 양방향 이동이 가능하고 이동시 1만큼의 시간이 걸리므로 아래와 같이 저장
